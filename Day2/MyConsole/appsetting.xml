@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appsettings>
+  <appsetting>
+    <aa>
+      <bb>bbb</bb>
+    </aa>
+    <app name="xx" value="hello"></app>
+  </appsetting>
+</appsettings>
