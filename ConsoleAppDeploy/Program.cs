@@ -12,6 +12,8 @@ namespace ConsoleAppDeploy
             var tokenSource = new CancellationTokenSource();
             Task.Factory.StartNew(() =>
             {
+                //每次执行业务操作之前，判断当前CancellationTokenSource的标识是否执行了Cancel
+                //如果没有被Cancel则继续进行下一个业务逻辑，保证了不会执行了一半被退出
                 while (!tokenSource.IsCancellationRequested)
                 {
                     Console.WriteLine($"{DateTime.Now}：业务逻辑处理中");
@@ -24,11 +26,14 @@ namespace ConsoleAppDeploy
             });
             Console.WriteLine("服务成功开启");
 
-            while (true)
+            //如果配置为N，则继续进行Task的业务操作
+            //如果配置为Y，则执行CancellationTokenSource的取消操作
+            var config = ConfigurationManager.Configuration["isquit"];
+            while (!"Y".Equals(config, StringComparison.OrdinalIgnoreCase))
             {
-
+                Thread.Sleep(1000);
             }
-
+            tokenSource.Cancel();
         }
     }
 }

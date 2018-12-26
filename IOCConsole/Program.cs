@@ -9,8 +9,8 @@ namespace IOCConsole
         static void Main(string[] args)
         {
 
-            Transient_ServicesLifeCycle();
-            Singleton_ServicesLifeCycle();
+            //Transient_ServicesLifeCycle();
+            //Singleton_ServicesLifeCycle();
             Scoped_ServicesLifeCycle();
 
             Console.ReadKey();
