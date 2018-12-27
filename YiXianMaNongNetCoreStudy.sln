@@ -49,11 +49,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationPipeline", "W
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day17ApplicationBuilder快捷方法", "Day17ApplicationBuilder快捷方法", "{AB69EC68-C744-48EE-8DBD-CFE6E1291CC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationBuilderWeb", "ApplicationBuilderWeb\ApplicationBuilderWeb.csproj", "{31099CFF-404C-4FB6-9186-9967D89DBDEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationBuilderWeb", "ApplicationBuilderWeb\ApplicationBuilderWeb.csproj", "{31099CFF-404C-4FB6-9186-9967D89DBDEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day18Deploy", "Day18Deploy", "{D7CC5DD4-11B6-4C8E-992B-1D8F3CF93054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationDeploy", "WebApplicationDeploy\WebApplicationDeploy.csproj", "{C762F2F2-1316-4EB4-8C64-AF1FCF7CFA5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationDeploy", "WebApplicationDeploy\WebApplicationDeploy.csproj", "{C762F2F2-1316-4EB4-8C64-AF1FCF7CFA5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day19Polly", "Day19Polly", "{A6DB552D-11D4-4CAA-922A-A55364D41067}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppPolly", "ConsoleAppPolly\ConsoleAppPolly.csproj", "{16DFE756-A7D6-4E1D-A38A-2764BB4380A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day20新语法", "Day20新语法", "{A36AEE65-B869-4F72-9DB3-01ADDD049479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppNewGrammar", "ConsoleAppNewGrammar\ConsoleAppNewGrammar.csproj", "{0D4E93DE-AD5A-4399-81ED-3EC9773A9327}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +125,14 @@ Global
 		{C762F2F2-1316-4EB4-8C64-AF1FCF7CFA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C762F2F2-1316-4EB4-8C64-AF1FCF7CFA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C762F2F2-1316-4EB4-8C64-AF1FCF7CFA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16DFE756-A7D6-4E1D-A38A-2764BB4380A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16DFE756-A7D6-4E1D-A38A-2764BB4380A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16DFE756-A7D6-4E1D-A38A-2764BB4380A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16DFE756-A7D6-4E1D-A38A-2764BB4380A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4E93DE-AD5A-4399-81ED-3EC9773A9327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4E93DE-AD5A-4399-81ED-3EC9773A9327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4E93DE-AD5A-4399-81ED-3EC9773A9327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4E93DE-AD5A-4399-81ED-3EC9773A9327}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,6 +152,8 @@ Global
 		{A617AC8C-E1E2-45F6-879E-7CB524796CDD} = {601DA3CE-EF6B-4740-A3AE-D79D99F0846A}
 		{31099CFF-404C-4FB6-9186-9967D89DBDEE} = {AB69EC68-C744-48EE-8DBD-CFE6E1291CC0}
 		{C762F2F2-1316-4EB4-8C64-AF1FCF7CFA5D} = {D7CC5DD4-11B6-4C8E-992B-1D8F3CF93054}
+		{16DFE756-A7D6-4E1D-A38A-2764BB4380A8} = {A6DB552D-11D4-4CAA-922A-A55364D41067}
+		{0D4E93DE-AD5A-4399-81ED-3EC9773A9327} = {A36AEE65-B869-4F72-9DB3-01ADDD049479}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CCFCBEF-CC54-492B-B720-94904D846F7D}
